@@ -8,7 +8,7 @@ import NavBar from "components/NavBar";
 const Dashboard = () => {
     return (
         <>
-            <NavBar/>
+            <NavBar />
             <div className="container">
                 <h1 className="text-primary py-3"> DashBord de Vendas </h1>
                 <div className="row px-3">
@@ -18,9 +18,10 @@ const Dashboard = () => {
                     </div>
                     <div className="col-sm-6">
                         <h5 className="text-center text-secondary">Todas as Vendas</h5>
-                        <BarChart />
+                        <DonutChart />
                     </div>
                 </div>
+
                 <div className="py-3">
                     <h2 className="text-primary"> Todas Vendas </h2>
 
